@@ -1,0 +1,10 @@
+parameters:
+    level: 5
+    paths:
+        - src
+
+    reportUnmatchedIgnoredErrors: true
+
+    excludes_analyse:
+        - 'src/Console/Laravel/TelegramLongPollingCommand.php'
+        - 'src/Console/Laravel/TelegramRegisterWebhookCommand.php'
